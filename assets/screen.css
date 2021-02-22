@@ -18,3 +18,9 @@ li{
 	padding-bottom: 1em;
 }
 
+@media screen and (min-width: 414px) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+}
