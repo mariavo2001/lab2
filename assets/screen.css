@@ -5,3 +5,10 @@ html{
 	font-size: 1.125em;
 	background: #ffa1d5;
 }
+
+h1{
+	font-size: 1.875em;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 1em;
+}
