@@ -17,8 +17,15 @@ fieldset {
 	border-color: transparent;
 }
 
-li{
+li {
 	padding-bottom: 1em;
+}
+
+button, input {
+  font-family: 'Roboto Mono', "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
+  overflow: visible;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 @media screen and (min-width: 414px) {
