@@ -21,6 +21,10 @@ li {
 	padding-bottom: 1em;
 }
 
+label {
+  display: block;
+}
+
 button, input {
   font-family: 'Roboto Mono', "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
   overflow: visible;
