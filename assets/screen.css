@@ -4,7 +4,6 @@ html{
 	font-family: 'Roboto Mono', "Hoefler Text", Georgia, "Times New Roman", Times, Roman, serif;
 	font-size: 1.125em;
 	background: #ffa1d5;
-	text-align: center;
 }
 
 h1{
@@ -20,6 +19,7 @@ fieldset {
 
 li {
 	padding-bottom: 1em;
+	text-align: center;
 }
 
 label {
@@ -31,6 +31,14 @@ button, input {
   overflow: visible;
   margin-bottom: 1em;
   margin-top: 1em;
+}
+
+
+@media screen and (min-width: 336px) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 414px) {
